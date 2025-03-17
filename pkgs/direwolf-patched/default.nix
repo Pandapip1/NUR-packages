@@ -89,5 +89,6 @@ stdenv.mkDerivation rec {
     license = lib.licenses.gpl2;
     platforms = lib.platforms.unix;
     maintainers = with lib.maintainers; [ pandapip1 ];
+    mainProgram = "direwolf";
   };
 }
